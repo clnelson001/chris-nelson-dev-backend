@@ -1,0 +1,23 @@
+# Terraform local files
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/crash.log
+terraform/terraform.tfvars_new
+terraform/*.tfvars
+terraform/*.tfvars.json
+terraform/override.tf
+terraform/override.tf.json
+lambda/*.zip
+dns/.terraform.lock.hcl
+dns/terraform.tfvars
+dns/.terraform/
+*.zip
+bkp/
+terraform.tfstate
