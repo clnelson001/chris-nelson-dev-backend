@@ -3,6 +3,8 @@ root_domain         = "chris-nelson.dev"
 site_bucket_name    = "chris-nelson-dev-site-tf"
 aws_region          = "us-east-1"
 github_iam_username = "github-actions-site-deploy"
+#site_alarm_email    = TF_VAR_site_alarm_email
+#github_token        = TF_VAR_github_token
 
 # Restrict to local access only?
 #allowed_ip          = TF_VAR_allowed_ip
