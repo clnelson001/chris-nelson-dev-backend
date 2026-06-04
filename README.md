@@ -1,6 +1,6 @@
 # chris-nelson-dev-backend
 
-Serverless backend for the live status/latency API behind chris-nelson.dev, and the static HTML frontend hosted behind the same CloudFront/S3 stack. Terraform-provisioned AWS stack with Lambda + API Gateway + CloudFront + Route 53 health checks, optional WAF, CI, and tests.
+Serverless backend for the live status/latency API behind chris-nelson.dev, plus the Terraform-managed AWS infrastructure that hosts the site behind the same CloudFront/S3 stack. Terraform-provisioned AWS stack with Lambda + API Gateway + CloudFront + Route 53 health checks, optional WAF, CI, and tests.
 
 ## Architecture / Stack
 - AWS: Lambda (Python), API Gateway HTTP API, CloudFront + S3 for frontend hosting, Route 53 health checks, optional WAF.
