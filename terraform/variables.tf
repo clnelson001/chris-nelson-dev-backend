@@ -9,6 +9,12 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
+variable "project_name" {
+  description = "Project identifier added to all taggable AWS resources"
+  type        = string
+  default     = "chris-nelson-dev-backend"
+}
+
 variable "site_bucket_name" {
   description = "S3 bucket name for the static site (must be globally unique)"
   type        = string
@@ -65,4 +71,3 @@ variable "waf_block_countries" {
   description = "List of ISO country codes to block with WAF GeoMatch"
   default     = []
 }
-
