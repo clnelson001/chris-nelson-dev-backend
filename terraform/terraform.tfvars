@@ -14,7 +14,7 @@ enable_ip_lock = false
 # Toggle WAF geo-blocking for demo purposes
 create_waf          = false
 enable_waf          = false
-waf_block_countries = ["SG", "AU"]
+waf_block_countries = ["AU"]
 # WAF Country Codes ##############
 # US health checkers
 # US – United States

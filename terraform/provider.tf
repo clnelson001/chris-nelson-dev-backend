@@ -31,6 +31,12 @@ terraform {
 provider "aws" {
   region  = var.aws_region
   profile = "personal"
+
+  default_tags {
+    tags = {
+      Project = var.project_name
+    }
+  }
 }
 
 #############################################
@@ -41,6 +47,12 @@ provider "aws" {
   alias   = "us_east_1"
   region  = "us-east-1"
   profile = "personal"
+
+  default_tags {
+    tags = {
+      Project = var.project_name
+    }
+  }
 }
 
 #############################################
