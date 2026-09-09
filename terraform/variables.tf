@@ -12,7 +12,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Project identifier added to all taggable AWS resources"
   type        = string
-  default     = "chris-nelson-dev-backend"
+  default     = "chris-nelson-dev"
 }
 
 variable "site_bucket_name" {
