@@ -34,7 +34,8 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project = var.project_name
+      Project   = var.project_name
+      Component = "backend"
     }
   }
 }
@@ -50,7 +51,8 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project = var.project_name
+      Project   = var.project_name
+      Component = "backend"
     }
   }
 }
